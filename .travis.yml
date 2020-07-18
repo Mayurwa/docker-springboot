@@ -3,4 +3,4 @@ services:
   - docker
   
 before_install:
-  - docker build -t demo/dokcker-springboot -f Dockerfile .
+  - docker build -t demo .
